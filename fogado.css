@@ -1,8 +1,8 @@
 body {
     background-color: #f1fbff;
     color: #40409b;
-    margin: 20px 0;
-    padding: 20px;
+    /* margin: 20px 0; */
+    padding: 20px 0;
 }
 
 .kerek
@@ -35,9 +35,13 @@ body {
 filter: drop-shadow(0px 0px 15px orange);
 }
 
-
-.kozepre
+#zold_ragyogas
 {
+-webkit-filter: drop-shadow(0px 0px 15px green);
+filter: drop-shadow(0px 0px 15px green);
+}
+
+.kozepre {
     text-align: center;
 }
 
@@ -59,4 +63,17 @@ filter: drop-shadow(0px 0px 15px orange);
 
 .sorkizart {
     text-align: justify;
+}
+
+.etterem-meret {
+    width: 75%;
+}
+
+.vonal {
+    height: 2px;
+    background-color: white;
+}
+
+#nyil {
+    height: 1em;
 }
